@@ -1,6 +1,6 @@
 {
     "appCode": "7MXXDYVYYA",
-    "memo": "基于dbchain-js-client开发的博客开发示例",
+    "memo": "基于dbchain-js-client-sm2开发的博客开发示例",
     "table": [
         {
             "name": "blogs",

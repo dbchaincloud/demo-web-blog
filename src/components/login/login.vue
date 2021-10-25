@@ -75,7 +75,7 @@ import {
   setChainId,
   detectChain,
   resetLazyFactory,
-} from "dbchain-js-client";
+} from "dbchain-js-client-sm2";
 
 export default {
   data() {
@@ -141,7 +141,7 @@ export default {
   },
   created() {
     //console.log(this);
-    // 每次进入这页面，清除dbchain-js-client缓存
+    // 每次进入这页面，清除dbchain-js-client-sm2缓存
     resetLazyFactory();
     this.$store.commit("setIsLoding", false);
   },

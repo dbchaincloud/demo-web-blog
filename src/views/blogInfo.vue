@@ -65,7 +65,7 @@
 <script>
 let that;
 import { getQueryString } from "@/utils/mUtils";
-import { Querier, insertRow, canInsertRow } from "dbchain-js-client";
+import { Querier, insertRow, canInsertRow } from "dbchain-js-client-sm2";
 export default {
   data() {
     return {

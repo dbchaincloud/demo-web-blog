@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import { insertRow, canInsertRow } from "dbchain-js-client";
+import { insertRow, canInsertRow } from "dbchain-js-client-sm2";
 let that;
 export default {
   data() {

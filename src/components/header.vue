@@ -79,7 +79,7 @@ import {
   canInsertRow,
   getAddress,
   uploadFile,
-} from "dbchain-js-client";
+} from "dbchain-js-client-sm2";
 let that;
 export default {
   data() {
@@ -180,6 +180,7 @@ export default {
 
     outLogin(){
       this.closeCard()
+      window.localStorage.removeItem('dbchainwallet')
       this.$router.push('/login')
     }
   },

@@ -1,5 +1,5 @@
-const prod_AppCode = "BNQKVMVFGG",
-  test_AppCode = "BNQKVMVFGG";
+const prod_AppCode = "5APTSCPSF7",
+  test_AppCode = "5APTSCPSF7";
 
 const prod_BaseUrl = "https://controlpanel.dbchain.cloud/relay",
   test_BaseUrl = "https://controlpanel.dbchain.cloud/relay";

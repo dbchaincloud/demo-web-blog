@@ -5,7 +5,7 @@ import store from "./store";
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 Vue.config.productionTip = false;
-import * as DBChain from "dbchain-js-client";
+import * as DBChain from "dbchain-js-client-sm2";
 Vue.prototype.$DBChain = DBChain;
 import { APIURL } from "@/api/_init_.js";
 Vue.prototype.$APIURL = APIURL;

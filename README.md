@@ -1,4 +1,5 @@
 # dbchain-blog
+基于dbchain-js-client-sm2开发的博客开发示例
 
 ## Project setup
 ```

@@ -82,7 +82,7 @@
 
 <script>
 // @ is an alias to /src
-import { Querier, hasKey, hasPassphrase } from "dbchain-js-client";
+import { Querier, hasKey, hasPassphrase } from "dbchain-js-client-sm2";
 import { jsonToSort } from "@/utils/mUtils.js";
 
 import addBlog from "./addblog.vue";
