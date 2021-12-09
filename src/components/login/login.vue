@@ -76,7 +76,7 @@ import {
   detectChain,
   resetLazyFactory,
 } from "dbchain-js-client-sm2";
-
+import {getVerToken} from '@/custom/rest_client'
 export default {
   data() {
     return {
@@ -164,6 +164,7 @@ export default {
       );
       //console.log(isToBaseUrl);
       if (!isToBaseUrl.status) return this.$message.error(isToBaseUrl.content);
+      getVerToken()
       // 设置默认访问参数 节点访问地址和节点id
       setBaseUrl(this.$APIURL.BaseUrl);
       setChainId(this.$APIURL.ChainId);
